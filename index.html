@@ -1,1 +1,39 @@
-update
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusCare AI</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CampusCare AI</h1>
+
+        <p>Report your campus problem and get an AI-based solution.</p>
+
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Location</label>
+        <input type="text" id="location" placeholder="Example: Block A">
+
+        <label>Describe Your Problem</label>
+        <textarea id="problem" placeholder="Describe your campus problem"></textarea>
+
+        <button onclick="analyzeProblem()">Analyze Problem</button>
+
+        <div id="result">
+            <!-- AI result will appear here -->
+        </div>
+
+    </div>
+
+    <!-- Connect JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
